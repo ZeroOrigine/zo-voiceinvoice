@@ -4,7 +4,7 @@ import Stripe from 'stripe'
 // CANONICAL Stripe client — single API version across the app
 // ============================================================
 
-const STRIPE_API_VERSION = '2024-06-20' as const
+const STRIPE_API_VERSION = '2025-02-24.acacia' as const
 
 let _stripe: Stripe | null = null
 

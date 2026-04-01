@@ -9,7 +9,7 @@ import { createClient } from '@supabase/supabase-js'
 // Uses Supabase service role client (bypasses RLS).
 // ============================================================
 
-const STRIPE_API_VERSION = '2024-06-20' as const
+const STRIPE_API_VERSION = '2025-02-24.acacia' as const
 
 let stripeInstance: Stripe | null = null
 function getStripe(): Stripe {

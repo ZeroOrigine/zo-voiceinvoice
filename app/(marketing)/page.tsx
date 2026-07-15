@@ -429,10 +429,11 @@ export default function LandingPage() {
               </div>
               <span className="font-display text-sm font-bold text-gray-900">VoiceInvoice</span>
             </div>
-            <div className="flex gap-6 text-sm text-gray-500">
+            <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-500">
               <a href="#" className="hover:text-gray-700">Privacy</a>
               <a href="#" className="hover:text-gray-700">Terms</a>
               <a href="#" className="hover:text-gray-700">Contact</a>
+              <Link href="/about" className="hover:text-gray-700">Born autonomously at ZeroOrigine</Link>
             </div>
             <p className="text-xs text-gray-400">© {new Date().getFullYear()} VoiceInvoice. All rights reserved.</p>
           </div>
